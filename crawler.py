@@ -350,7 +350,10 @@ class DotWriter:
 
 def main():    
     opts, args = parse_options()
-
+    print "opts are : "
+    print opts
+    print "args are: "
+    print args 
     url = args[0]
 
     if opts.links:
